@@ -8,7 +8,7 @@ interface LinkProps {
 
 export const Button: React.FC<LinkProps> = ({ name, href }) => {
   return (
-    <Link href={href} className=" hover:text-black">
+    <Link href={href} className="hover:text-black">
     {name} 
     </Link>
   );

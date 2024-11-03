@@ -1,12 +1,10 @@
 import React from 'react'
 import { Button } from './Button';
 
-
  interface LinkProps {
   name: string;
   href: string;
 }
-
 
 const navLinks: LinkProps[] = [
   { name: "Home", href: "/pages/home" },
