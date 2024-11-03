@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Footer } from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +14,6 @@ export default function RootLayout({
 
      <div>
         {children}
-        <Footer></Footer>
         </div>
   );
 }
