@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 interface LinkProps {
   name: string;
@@ -7,8 +8,8 @@ interface LinkProps {
 
 export const Button: React.FC<LinkProps> = ({ name, href }) => {
   return (
-    <a href={href} className=" hover:text-white">
-      {name}
-    </a>
+    <Link href={href} className=" hover:text-black">
+    {name} 
+    </Link>
   );
 };
