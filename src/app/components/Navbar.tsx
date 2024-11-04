@@ -1,16 +1,14 @@
 import React from 'react'
 import { Button } from './Button';
+import LinkProps from '../types/link';
 
- interface LinkProps {
-  name: string;
-  href: string;
-}
 
 const navLinks: LinkProps[] = [
   { name: "Home", href: "/pages/home" },
   { name: "Login", href: "/pages/login" },
   { name: "Services", href: "/pages/services" },
   { name: "Contact", href: "/pages/contact" },
+  { name: "To-Do", href:"/pages/todos"}
 ];
 
 const Navbar: React.FC = () => {
